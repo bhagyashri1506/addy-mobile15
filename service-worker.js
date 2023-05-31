@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/addy-mobile-15/precache-manifest.1fd0f88ee55b1fa3eb41e2da2c3c71ce.js"
+  "/addy-mobile15/precache-manifest.95bc961705fd901fbe69bd975e7a91d7.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/addy-mobile-15/index.html", {
+workbox.routing.registerNavigationRoute("/addy-mobile15/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
